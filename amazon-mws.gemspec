@@ -139,6 +139,10 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{A Ruby Wrapper for the Amazon MWS API}
 
+  s.add_dependency 'ruby-hmac'
+  s.add_dependency 'roxml'
+  s.add_dependency 'xml-simple'
+
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
